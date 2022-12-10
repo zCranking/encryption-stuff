@@ -8,7 +8,7 @@ def SHA256():
 SHA256()
 
 def MD5():
-    result = hashlib.md5(value.encode())
+    result = hashlib.md5(value.encode())    
     print("MD5 encrypted data:", result.hexdigest())
 MD5()
 
